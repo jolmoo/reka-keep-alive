@@ -4,7 +4,6 @@ on:
   schedule:
     # Se ejecuta cada 12 minutos (Render duerme a los 15)
     - cron: '*/12 * * * *' 
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions
 
 jobs:
   ping:
