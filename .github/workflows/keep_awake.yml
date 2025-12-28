@@ -3,7 +3,7 @@ name: Reka Keep Alive
 on:
   schedule:
     # Se ejecuta cada 12 minutos (Render duerme a los 15)
-    - cron: '*/12 * * * *' 
+    - cron: '*/7 * * * *' 
 
 jobs:
   ping:
